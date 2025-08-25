@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WedBanDoCongNghe.Models.SanPham>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">+ Thêm sản phẩm</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã SP</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Mô tả</th>
+            <th>Hình ảnh</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.SanPhamId</td>
+                <td>@item.TenSp</td>
+                <td>@item.Gia.ToString("N0") đ</td>
+                <td>@item.SoLuong</td>
+                <td>@item.MoTa</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.HinhAnh))
+                    {
+                        <img src="@item.HinhAnh" alt="@item.TenSp" width="80" height="80" />
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.SanPhamId" class="btn btn-info btn-sm">Xem</a>
+                    <a asp-action="Edit" asp-route-id="@item.SanPhamId" class="btn btn-warning btn-sm">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.SanPhamId" class="btn btn-danger btn-sm">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

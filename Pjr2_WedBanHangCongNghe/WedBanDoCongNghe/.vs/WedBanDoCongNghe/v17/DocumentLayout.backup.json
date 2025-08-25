@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\sanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\sanphams\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\sanphams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\sanphams\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:controllers\\chitietdonhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:controllers\\donhangscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|c:\\users\\admin\\desktop\\tai and lieu\\pjr2_wedbanhangcongnghe\\wedbandocongnghe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5824736B-BE58-4C96-B739-B918CFB4C69D}|WedBanDoCongNghe.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Details.cshtml*",
+              "RelativeToolTip": "Views\\Users\\Details.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:12:17.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Delete.cshtml*",
+              "RelativeToolTip": "Views\\Users\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:12:11.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Edit.cshtml*",
+              "RelativeToolTip": "Views\\Users\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:12:05.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Create.cshtml*",
+              "RelativeToolTip": "Views\\Users\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:11:54.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Users\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:11:47.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Delete.cshtml*",
+              "RelativeToolTip": "Views\\SanPhams\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:10:32.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Details.cshtml*",
+              "RelativeToolTip": "Views\\SanPhams\\Details.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:10:13.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Edit.cshtml*",
+              "RelativeToolTip": "Views\\SanPhams\\Edit.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:10:05.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Create.cshtml*",
+              "RelativeToolTip": "Views\\SanPhams\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:09:56.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPhams\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\SanPhams\\Index.cshtml*",
+              "RelativeToolTip": "Views\\SanPhams\\Index.cshtml*",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T14:09:46.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:58:01.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\DonHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonHangsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\DonHangsController.cs*",
+              "RelativeToolTip": "Controllers\\DonHangsController.cs*",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:56:41.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChiTietDonHangsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\ChiTietDonHangsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChiTietDonHangsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\ChiTietDonHangsController.cs*",
+              "RelativeToolTip": "Controllers\\ChiTietDonHangsController.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:49:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanPhamsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Controllers\\SanPhamsController.cs*",
+              "RelativeToolTip": "Controllers\\SanPhamsController.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:37:28.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:31:41.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Models\\ChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\ChiTietDonHang.cs",
+              "RelativeToolTip": "Models\\ChiTietDonHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:31:29.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "Models\\DonHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\DonHang.cs",
+              "RelativeToolTip": "Models\\DonHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:31:18.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Models\\SanPham.cs",
+              "RelativeToolTip": "Models\\SanPham.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:31:06.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T13:27:05.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:04:29.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T12:56:29.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_NavBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_NavBar.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Tai And Lieu\\Pjr2_WedBanHangCongNghe\\WedBanDoCongNghe\\Views\\Shared\\_NavBar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_NavBar.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T12:56:58.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
