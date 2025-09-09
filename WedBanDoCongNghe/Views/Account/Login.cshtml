@@ -1,0 +1,116 @@
+﻿@model WedBanDoCongNghe.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+@*  *@
+<style>
+    
+
+    .login-page-wrapper {
+        background-color: #1e1e1e; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: #e0e0e0;
+    }
+
+    .login-container {
+        background-color: #2b2b2b; 
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        transition: all 0.3s ease-in-out;
+        max-width: 500px;
+        margin: auto;
+    }
+
+        .login-container:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+            transform: translateY(-5px);
+        }
+
+        /* Tiêu đề */
+        .login-container h2 {
+            color: #f1f1f1;
+            font-weight: 600;
+        }
+
+    /* Input */
+    .form-control {
+        border-radius: 8px;
+        padding: 12px;
+        border: 1px solid #555;
+        background-color: #1e1e1e;
+        color: #f1f1f1;
+    }
+
+        .form-control:focus {
+            border-color: #ffcc00; 
+            box-shadow: 0 0 0 0.25rem rgba(255, 204, 0, 0.25);
+        }
+
+    /* Label */
+    .form-label {
+        font-weight: 500;
+        color: #ccc;
+    }
+
+    /* Nút đăng nhập */
+    .btn-login {
+        background-color: #444;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 12px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.2s ease-in-out, transform 0.2s ease;
+    }
+
+        .btn-login:hover {
+            background-color: #ffcc00; 
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+    /* Checkbox */
+    .form-check-label {
+        color: #bbb;
+    }
+
+    /* Validation message */
+    .text-danger {
+        color: #ff6b6b !important;
+    }
+</style>
+
+<div class="login-page-wrapper">
+    <div class="login-container">
+        <h2 class="text-center mb-4">Đăng nhập</h2>
+
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="UserName" class="form-label"></label>
+                <input asp-for="UserName" class="form-control" placeholder="Nhập tên đăng nhập" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control" placeholder="Nhập mật khẩu" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check mb-3">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label"></label>
+            </div>
+
+            <button type="submit" class="btn w-100 btn-login">Đăng nhập</button>
+        </form>
+    </div>
+</div>

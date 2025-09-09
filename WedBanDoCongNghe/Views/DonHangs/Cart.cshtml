@@ -1,0 +1,40 @@
+﻿@model WedBanDoCongNghe.Models.DonHang
+
+<h2>Giỏ hàng</h2>
+
+@if (Model == null || !Model.ChiTietDonHangs.Any())
+{
+    <p>Giỏ hàng trống.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Hình ảnh</th>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Thành tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ChiTietDonHangs)
+            {
+                <tr>
+                    <td><img src="@item.SanPham.HinhAnh" width="80" /></td>
+                    <td>@item.SanPham.TenSanPham</td>
+                    <td>@item.SoLuong</td>
+                    <td>@item.SanPham.Gia.ToString("n0") VNĐ</td>
+                    <td>@(item.SoLuong * item.SanPham.Gia) VNĐ</td>
+                    <td>
+                        <a asp-action="RemoveItem" asp-route-id="@item.ChiTietDonHangId" class="btn btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Checkout" class="btn btn-success">Thanh toán</a>
+}

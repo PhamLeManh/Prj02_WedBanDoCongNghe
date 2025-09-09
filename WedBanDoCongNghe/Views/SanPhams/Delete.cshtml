@@ -1,0 +1,16 @@
+﻿@model WedBanDoCongNghe.Models.SanPham
+
+<h3>Bạn có chắc chắn muốn xóa sản phẩm này?</h3>
+
+<div>
+    <h4>@Model.TenSanPham</h4>
+    <p>Giá: @Model.Gia</p>
+    <p>Mô tả: @Model.MoTa</p>
+    <img src="@Model.HinhAnh" width="150" />
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="SanPhamId" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>

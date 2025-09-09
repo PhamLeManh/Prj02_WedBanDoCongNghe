@@ -1,0 +1,67 @@
+﻿@model WedBanDoCongNghe.Models.SanPham
+
+@{
+    ViewData["Title"] = "Sửa sản phẩm";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-warning text-dark text-center">
+            <h3>✏️ Sửa sản phẩm</h3>
+        </div>
+        <div class="card-body p-4">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="SanPhamId" />
+
+                <div class="mb-3">
+                    <label asp-for="TenSanPham" class="form-label fw-bold">Tên sản phẩm</label>
+                    <input asp-for="TenSanPham" class="form-control" />
+                    <span asp-validation-for="TenSanPham" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Gia" class="form-label fw-bold">Giá</label>
+                    <input asp-for="Gia" class="form-control" />
+                    <span asp-validation-for="Gia" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Hình ảnh hiện tại</label>
+                    <div class="mb-2">
+                        <img src="@Model.HinhAnh" class="img-thumbnail" width="150" />
+                    </div>
+                    <label class="form-label fw-bold">Thay đổi hình ảnh</label>
+                    <input type="file" name="HinhAnhFile" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="LoaiSanPham" class="form-label fw-bold">Loại sản phẩm</label>
+                    <select asp-for="LoaiSanPham" class="form-select">
+                        <option value="Laptop" selected="@(@Model.LoaiSanPham=="Laptop")">Laptop</option>
+                        <option value="Điện thoại" selected="@(@Model.LoaiSanPham=="Điện thoại")">Điện thoại</option>
+                        <option value="Phụ kiện" selected="@(@Model.LoaiSanPham=="Phụ kiện")">Phụ kiện</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="SoLuongTon" class="form-label fw-bold">Số lượng tồn kho</label>
+                    <input asp-for="SoLuongTon" class="form-control" />
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="Active" class="form-check-input" />
+                    <label asp-for="Active" class="form-check-label">Kích hoạt sản phẩm</label>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary px-4">⬅ Hủy</a>
+                    <button type="submit" class="btn btn-primary px-4">💾 Lưu thay đổi</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

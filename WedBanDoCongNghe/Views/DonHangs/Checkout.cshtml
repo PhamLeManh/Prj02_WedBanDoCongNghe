@@ -1,0 +1,28 @@
+﻿@model WedBanDoCongNghe.Models.DonHang
+<h3>Thanh toán</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tổng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ChiTietDonHangs)
+        {
+            <tr>
+                <td>@item.SanPham.TenSanPham</td>
+                <td>@String.Format("{0:N0} ₫", item.SanPham.Gia)</td>
+                <td>@item.SoLuong</td>
+                <td>@String.Format("{0:N0} ₫", item.SanPham.Gia * item.SoLuong)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p class="fw-bold">Tổng thanh toán: @ViewBag.Total ₫</p>
+<p>Thanh toán demo: đơn hàng được đánh dấu đã tạo</p>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">Hoàn tất</a>

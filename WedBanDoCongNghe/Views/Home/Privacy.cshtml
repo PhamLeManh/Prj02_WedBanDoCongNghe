@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Thông tin liên hệ";
+}
+
+<style>
+    /* ---- CSS CHO TRANG THÔNG TIN LIÊN HỆ (tone đen - xám) ---- */
+    .contact-page-wrapper {
+        background-color: #1e1e1e;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        min-height: 100vh;
+        color: #e0e0e0;
+    }
+
+    .contact-container {
+        background-color: #2b2b2b;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+        max-width: 700px;
+        margin: auto;
+    }
+
+        .contact-container h1 {
+            color: #ffcc00;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+    .contact-info {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+        .contact-info strong {
+            color: #ffcc00;
+        }
+
+        .contact-info a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+            .contact-info a:hover {
+                text-decoration: underline;
+            }
+</style>
+
+<div class="contact-page-wrapper">
+    <div class="contact-container">
+        <h1>@ViewData["Title"]</h1>
+
+        <div class="contact-info">
+            <p><strong>📍 Địa chỉ:</strong> 123 Đường Công Nghệ, Quận 1, TP.HCM</p>
+            <p><strong>📞 Điện thoại:</strong> 0123 456 789</p>
+            <p><strong>✉️ Email:</strong> <a href="mailto:support@wedbandocongnghe.com">support@wedbandocongnghe.com</a></p>
+            <p><strong>🌐 Website:</strong> <a href="https://www.wedbandocongnghe.com" target="_blank">www.wedbandocongnghe.com</a></p>
+            <p><strong>🕒 Giờ làm việc:</strong> Thứ 2 – Thứ 7, 8:00 – 18:00</p>
+        </div>
+    </div>
+</div>

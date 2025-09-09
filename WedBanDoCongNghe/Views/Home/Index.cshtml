@@ -1,0 +1,166 @@
+﻿@model IEnumerable<WedBanDoCongNghe.Models.SanPham>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<WedBanDoCongNghe.Models.AppUser> SignInManager
+@inject UserManager<WedBanDoCongNghe.Models.AppUser> UserManager
+
+<h3 class="text-center mb-4">Thế Giới Công Nghệ</h3>
+
+<div class="video-banner overflow-auto d-flex mb-4 p-2">
+    <div class="video-item me-3">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+            <video autoplay muted loop playsinline class="w-100 h-100">
+                <source src="~/videos/VD01.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="video-item me-3">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+            <video autoplay muted loop playsinline class="w-100 h-100">
+                <source src="~/videos/VD02.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="video-item me-3">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+            <video autoplay muted loop playsinline class="w-100 h-100">
+                <source src="~/videos/VD03.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="video-item me-3">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+            <video autoplay muted loop playsinline class="w-100 h-100">
+                <source src="~/videos/VD04.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="video-item me-3">
+        <div class="ratio ratio-16x9 shadow-sm rounded">
+            <video autoplay muted loop playsinline class="w-100 h-100">
+                <source src="~/videos/VD05.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="section-divider"></div>
+
+<style>
+     <hr>
+    .section-divider {
+        width: 60%;
+        height: 2px;
+        margin: 30px auto;
+        background: linear-gradient(to right, transparent, #444, transparent);
+        border-radius: 2px;
+    }
+</style>
+
+
+
+
+
+
+<h4 class="text-center mb-4">Sản Phẩm Nổi Bật</h4>
+<div class="row">
+    @foreach (var sp in Model)
+    {
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card shadow-sm rounded product-card h-100">
+                <div class="position-relative">
+                    <img src="@(!string.IsNullOrEmpty(sp.HinhAnh) ? sp.HinhAnh : "https://via.placeholder.com/300x200?text=No+Image")"
+                         class="card-img-top" alt="@sp.TenSanPham">
+                    @if (sp.Gia < 5000000)
+                    {
+                        <div class="badge bg-danger position-absolute top-0 end-0 m-2">Hot</div>
+                    }
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">@sp.TenSanPham</h5>
+                    <p class="card-text text-warning fw-bold">@String.Format("{0:N0} ₫", sp.Gia)</p>
+                    <div class="mt-auto d-grid">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <a asp-controller="DonHangs" asp-action="AddToCart" asp-route-id="@sp.SanPhamId" class="btn btn-danger">MUA</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Đăng nhập để mua</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+
+
+<!-- Promotion Notice -->
+<div class="alert alert-dark mt-4 text-center rounded shadow-sm promo-box">
+    <p><strong>Khuyến mãi:</strong> Miễn phí BHV lần thứ 5 khi đã mua BHV lần thứ 4.</p>
+    <p class="mb-0">(Đăng nhập để kiểm tra đơn hàng)</p>
+</div>
+
+<style>
+    body {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+    }
+
+    h3, h4 {
+        color: #f1f1f1;
+    }
+
+    /* Video Banner */
+    .video-banner {
+        scroll-behavior: smooth;
+    }
+
+    .video-item {
+        min-width: 220px;
+        flex: 0 0 auto;
+    }
+
+    .ratio video {
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Product Card */
+    .product-card {
+        background-color: #2b2b2b;
+        border: 1px solid #444;
+        transition: all 0.3s ease;
+        border-radius: 15px;
+        color: #f1f1f1;
+    }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .product-card .card-title {
+            color: #fff;
+        }
+
+        .product-card .card-text {
+            color: #ffcc00;
+        }
+
+    /* Promotion Notice */
+    .promo-box {
+        background: linear-gradient(135deg, #2d2d2d, #3a3a3a);
+        color: #e0e0e0;
+        font-weight: 500;
+        border: 1px solid #555;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+</style>
